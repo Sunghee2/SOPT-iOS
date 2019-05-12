@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE324C6722830B4A0049E8BD /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE324C6622830B4A0049E8BD /* Episode.swift */; };
+		DE634DAD227B48E300B9AB4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE634DAC227B48E300B9AB4C /* AppDelegate.swift */; };
+		DE634DAF227B48E400B9AB4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE634DAE227B48E400B9AB4C /* ViewController.swift */; };
+		DE634DB2227B48E400B9AB4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE634DB0227B48E400B9AB4C /* Main.storyboard */; };
+		DE634DB4227B48E400B9AB4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE634DB3227B48E400B9AB4C /* Assets.xcassets */; };
+		DE634DB7227B48E400B9AB4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE634DB5227B48E400B9AB4C /* LaunchScreen.storyboard */; };
+		DE9E47E8227BCC500008C5E5 /* WebtoonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9E47E7227BCC500008C5E5 /* WebtoonDetailVC.swift */; };
+		DEA8CE5E227B5CDA0065B493 /* NanumSquareRoundEB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEA8CE5D227B5CD10065B493 /* NanumSquareRoundEB.ttf */; };
+		DEA8CE60227B5D240065B493 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA8CE5F227B5D240065B493 /* UIView.swift */; };
+		DEA8CE62227B62160065B493 /* WebtoonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA8CE61227B62160065B493 /* WebtoonCollectionViewCell.swift */; };
+		DEA8CE66227B6BF40065B493 /* Webtoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA8CE65227B6BF40065B493 /* Webtoon.swift */; };
+		DEED6226227BCEF500A19562 /* WebtoonListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED6225227BCEF500A19562 /* WebtoonListVC.swift */; };
+		DEED622A227BD51F00A19562 /* WebtoonListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED6229227BD51F00A19562 /* WebtoonListCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE324C6622830B4A0049E8BD /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		DE634DA9227B48E300B9AB4C /* SOPThw2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOPThw2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE634DAC227B48E300B9AB4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE634DAE227B48E400B9AB4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE634DB1227B48E400B9AB4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE634DB3227B48E400B9AB4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE634DB6227B48E400B9AB4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE634DB8227B48E400B9AB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE9E47E7227BCC500008C5E5 /* WebtoonDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebtoonDetailVC.swift; sourceTree = "<group>"; };
+		DEA8CE5D227B5CD10065B493 /* NanumSquareRoundEB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumSquareRoundEB.ttf; path = ../../../../../../../Library/Fonts/NanumSquareRoundEB.ttf; sourceTree = "<group>"; };
+		DEA8CE5F227B5D240065B493 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		DEA8CE61227B62160065B493 /* WebtoonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebtoonCollectionViewCell.swift; sourceTree = "<group>"; };
+		DEA8CE65227B6BF40065B493 /* Webtoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webtoon.swift; sourceTree = "<group>"; };
+		DEED6225227BCEF500A19562 /* WebtoonListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebtoonListVC.swift; sourceTree = "<group>"; };
+		DEED6229227BD51F00A19562 /* WebtoonListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebtoonListCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE634DA6227B48E300B9AB4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE634DA0227B48E300B9AB4C = {
+			isa = PBXGroup;
+			children = (
+				DE634DAB227B48E300B9AB4C /* SOPThw2 */,
+				DE634DAA227B48E300B9AB4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE634DAA227B48E300B9AB4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE634DA9227B48E300B9AB4C /* SOPThw2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE634DAB227B48E300B9AB4C /* SOPThw2 */ = {
+			isa = PBXGroup;
+			children = (
+				DE634DAC227B48E300B9AB4C /* AppDelegate.swift */,
+				DE634DAE227B48E400B9AB4C /* ViewController.swift */,
+				DE634DB0227B48E400B9AB4C /* Main.storyboard */,
+				DEA8CE5D227B5CD10065B493 /* NanumSquareRoundEB.ttf */,
+				DE634DB3227B48E400B9AB4C /* Assets.xcassets */,
+				DE634DB5227B48E400B9AB4C /* LaunchScreen.storyboard */,
+				DE634DB8227B48E400B9AB4C /* Info.plist */,
+				DEA8CE5F227B5D240065B493 /* UIView.swift */,
+				DEA8CE61227B62160065B493 /* WebtoonCollectionViewCell.swift */,
+				DEA8CE65227B6BF40065B493 /* Webtoon.swift */,
+				DE9E47E7227BCC500008C5E5 /* WebtoonDetailVC.swift */,
+				DEED6225227BCEF500A19562 /* WebtoonListVC.swift */,
+				DEED6229227BD51F00A19562 /* WebtoonListCell.swift */,
+				DE324C6622830B4A0049E8BD /* Episode.swift */,
+			);
+			path = SOPThw2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE634DA8227B48E300B9AB4C /* SOPThw2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE634DBB227B48E400B9AB4C /* Build configuration list for PBXNativeTarget "SOPThw2" */;
+			buildPhases = (
+				DE634DA5227B48E300B9AB4C /* Sources */,
+				DE634DA6227B48E300B9AB4C /* Frameworks */,
+				DE634DA7227B48E300B9AB4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SOPThw2;
+			productName = SOPThw2;
+			productReference = DE634DA9227B48E300B9AB4C /* SOPThw2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE634DA1227B48E300B9AB4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Sunghee Lee";
+				TargetAttributes = {
+					DE634DA8227B48E300B9AB4C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = DE634DA4227B48E300B9AB4C /* Build configuration list for PBXProject "SOPThw2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE634DA0227B48E300B9AB4C;
+			productRefGroup = DE634DAA227B48E300B9AB4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE634DA8227B48E300B9AB4C /* SOPThw2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE634DA7227B48E300B9AB4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE634DB7227B48E400B9AB4C /* LaunchScreen.storyboard in Resources */,
+				DEA8CE5E227B5CDA0065B493 /* NanumSquareRoundEB.ttf in Resources */,
+				DE634DB4227B48E400B9AB4C /* Assets.xcassets in Resources */,
+				DE634DB2227B48E400B9AB4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE634DA5227B48E300B9AB4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE634DAF227B48E400B9AB4C /* ViewController.swift in Sources */,
+				DEA8CE60227B5D240065B493 /* UIView.swift in Sources */,
+				DEED622A227BD51F00A19562 /* WebtoonListCell.swift in Sources */,
+				DEA8CE66227B6BF40065B493 /* Webtoon.swift in Sources */,
+				DE634DAD227B48E300B9AB4C /* AppDelegate.swift in Sources */,
+				DE9E47E8227BCC500008C5E5 /* WebtoonDetailVC.swift in Sources */,
+				DEED6226227BCEF500A19562 /* WebtoonListVC.swift in Sources */,
+				DE324C6722830B4A0049E8BD /* Episode.swift in Sources */,
+				DEA8CE62227B62160065B493 /* WebtoonCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE634DB0227B48E400B9AB4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE634DB1227B48E400B9AB4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE634DB5227B48E400B9AB4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE634DB6227B48E400B9AB4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE634DB9227B48E400B9AB4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE634DBA227B48E400B9AB4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE634DBC227B48E400B9AB4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89U4T49H8F;
+				INFOPLIST_FILE = SOPThw2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sopt.SOPThw2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE634DBD227B48E400B9AB4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89U4T49H8F;
+				INFOPLIST_FILE = SOPThw2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sopt.SOPThw2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE634DA4227B48E300B9AB4C /* Build configuration list for PBXProject "SOPThw2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE634DB9227B48E400B9AB4C /* Debug */,
+				DE634DBA227B48E400B9AB4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE634DBB227B48E400B9AB4C /* Build configuration list for PBXNativeTarget "SOPThw2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE634DBC227B48E400B9AB4C /* Debug */,
+				DE634DBD227B48E400B9AB4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE634DA1227B48E300B9AB4C /* Project object */;
+}
